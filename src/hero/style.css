@@ -1,0 +1,22 @@
+#banner{
+    background: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vmin;
+}
+
+#banner-img{
+    width: 40%;
+}
+
+#about-banner{
+    width: 40%;
+    height: 100%;
+
+    /* background: #786767; */
+}

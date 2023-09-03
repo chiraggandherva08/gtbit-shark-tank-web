@@ -1,1 +1,0 @@
-# gtbit-shark-tank-web
