@@ -8,6 +8,8 @@
 
     width: 100vw;
     height: 100vmin;
+
+    padding-top: 70px;
 }
 
 #banner-img{
@@ -17,6 +19,27 @@
 #about-banner{
     width: 40%;
     height: 100%;
+}
 
-    /* background: #786767; */
+@media (max-width: 900px) {
+    #banner{
+        background: rgb(0, 0, 0);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 30px;
+        align-items: center;
+
+        width: 90%;
+        height: 100vh;
+    }
+    
+    #banner-img{
+        width: 80%;
+    }
+    
+    #about-banner{
+        width: 100%;
+    }
 }
