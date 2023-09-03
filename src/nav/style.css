@@ -14,9 +14,10 @@
     backdrop-filter: blur(10px);
 
     border-bottom-style: solid;
-    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
     border-bottom-width: 0.5px;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+
+    z-index: 1;
 }
 
 .nav-list {
@@ -29,6 +30,8 @@
     max-width: 700px;
 
     list-style: none;
+
+    z-index: inherit;
 }
 
 .nav-item{
@@ -79,14 +82,11 @@
     width: 30px;
     height: 30px;
 
+    -webkit-user-drag: none;
     filter: invert(1);
 }
 
 @media (max-width: 900px) {
-    .nav-bar{
-        background: #000;
-    }
-
     .nav-list {
         display: flex;
         flex-direction: column;
@@ -117,6 +117,7 @@
         transition-duration: 0.4s;
 
         transform: translateX(500%);
+        z-index: 3;
     }
     
     .nav-item{
@@ -150,15 +151,17 @@
         width: 30px;
 
         cursor: pointer;
-    }
 
+    }
+    
     #hamburger-menu:hover{
         opacity: 0.8;
     }
-
+    
     #hamburger-menu img {
         width: 100%;
         left: 100%;
+        -webkit-user-drag: none;
     }
 
     .display-menu{
