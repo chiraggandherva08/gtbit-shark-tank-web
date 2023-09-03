@@ -8,7 +8,7 @@ const Banner = () => {
 
       <div id="about-banner">
         <h1 className="heading">SHARK TANK</h1>
-        <h2 className="details">15 Sep 2023</h2>
+        <h2 className="details"> <img src="/assets/calandar.svg" alt="calandar" /> 15 Sep 2023</h2>
 
         <div id="banner-links">
           <a href="#contact"></a>

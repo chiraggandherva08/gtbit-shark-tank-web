@@ -52,7 +52,25 @@
 }
 
 .details{
+    margin-top: 30px;
+
     color: rgb(203, 203, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 300px;
+    text-align: center;
+
+    -webkit-user-drag: none;
+}
+
+.details img{
+    height: 30px;
+    width: 30px;
+
+    filter: invert(1);
 }
 
 #banner-links{
