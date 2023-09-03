@@ -7,11 +7,11 @@ window.addEventListener("scroll", (event) => {
 
     const letter_scape = window.scrollY;
     
-    img.style.transform = `translateY(${letter_scape * 2}px)`;
+    img.style.transform = `translateY(${letter_scape * (-2)}px)`;
     img.style.filter = `blur(${letter_scape * 0.05}px)`;
+    img.style.opacity = `${0.6 - 0.003 * letter_scape}`;
     
     heading.style.letterSpacing = `${20 + letter_scape * 3}px`;
-
     heading.style.opacity = `${1 - letter_scape/140}`;
 })
 

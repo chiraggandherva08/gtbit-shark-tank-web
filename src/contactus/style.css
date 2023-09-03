@@ -1,0 +1,62 @@
+#contact-us{
+    width: 100vw;
+    height: 350px;
+    max-width: 800px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    gap: 30px;
+
+    background: black;
+    padding: 10px 0px;
+}
+
+#contact-us div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90%;
+    width: 40%;
+}
+
+#contact-us img {
+    width: 400px;
+}
+
+#email-contact-us, #name-contact-us, #ph-contact-us{
+    height: 25px;
+    width: 300px;
+
+    padding: 5px 10px;
+
+    border-radius: 3px;
+    outline: 0;
+    border-style: none;
+}
+
+#email-contact-us:focus, #name-contact-us:focus, #ph-contact-us:focus{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+#send-mail{
+    width: 200px;
+    height: 25px;
+    padding: 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(139, 255, 139);
+    color: black;
+
+    outline: 0;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
