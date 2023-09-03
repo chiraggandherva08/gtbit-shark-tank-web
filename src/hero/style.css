@@ -66,12 +66,12 @@
     justify-content: center;
     gap: 10px;
 
-    width: 300px;
+    width: 250px;
     text-align: center;
 
     -webkit-user-drag: none;
 
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .details img{
