@@ -15,7 +15,9 @@ const NavBar = () => {
         </div>
 
         <div id="logo">
-            <img src="" alt="" />
+            <a href="/">
+                <img src="/assets/logo.svg" alt="logo" />
+            </a>
         </div>
 
         <ul className="nav-list">{

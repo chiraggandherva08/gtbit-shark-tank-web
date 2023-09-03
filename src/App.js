@@ -4,10 +4,10 @@ import Banner from './hero/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Banner/>
-    </div>
+      <div className="App">
+        <NavBar/>
+        <Banner/>
+      </div>
   );
 }
 
