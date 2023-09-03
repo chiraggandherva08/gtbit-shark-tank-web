@@ -48,7 +48,8 @@
 
 .heading {
     font-size: 5em;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
+
 }
 
 .details{
@@ -64,6 +65,8 @@
     text-align: center;
 
     -webkit-user-drag: none;
+
+    font-size: 20px;
 }
 
 .details img{
