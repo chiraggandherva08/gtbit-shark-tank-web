@@ -4,6 +4,7 @@ import "./style.css";
 window.addEventListener("scroll", () => {
     const heading = document.querySelector(".heading");
     const img = document.querySelector("#banner-bg");
+    const headingContact = document.querySelector(".heading-contact");
 
     const scrolled_height = window.scrollY;
 
@@ -12,13 +13,13 @@ window.addEventListener("scroll", () => {
     img.style.opacity = `${0.4 - 0.002 * scrolled_height}`;
     
     heading.style.letterSpacing = `${20 + scrolled_height}px`;
-    
     heading.style.opacity = `${1 - scrolled_height/200}`;
 })
 
 const Banner = () => {
   return (
     <div id="banner">
+      <section id="home"></section>
       <img id="banner-bg" src="/assets/hero-img.jpg" alt="hero-img" />
 
       <div id="about-banner">
