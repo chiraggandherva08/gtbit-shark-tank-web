@@ -4,7 +4,6 @@ import "./style.css";
 window.addEventListener("scroll", () => {
     const heading = document.querySelector(".heading");
     const img = document.querySelector("#banner-bg");
-    const headingContact = document.querySelector(".heading-contact");
 
     const scrolled_height = window.scrollY;
 
@@ -30,7 +29,7 @@ const Banner = () => {
 
         <div id="banner-links">
           <a href="#contact"></a>
-          <a id="contact-us-btn" href="contact-us">
+          <a id="contact-us-btn" href="#contact-us">
             Contact us
           </a>
         </div>
