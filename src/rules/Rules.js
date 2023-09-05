@@ -11,12 +11,15 @@ window.addEventListener("scroll", () => {
 
     if(rulesSecPos - window.scrollY < window.innerHeight){
         img.style.opacity = `${0.4 - scrolled * 0.0007}`;
-        if(rulesSecPos - window.scrollY + iheight/2 < window.innerHeight){
+        img.style.transform = `translateY(${-scrolled}px)`;
         img.style.filter = `blur(${scrolled * 0.01}px)`;
     }
 
-    img.style.transform = `translateY(${-scrolled}px)`;
+    if(rulesSecPos - window.scrollY + iheight/4 < window.innerHeight){
         document.querySelector("#rules").classList.remove("transform-down");
+    }
+    else{
+        document.querySelector("#rules").classList.add("transform-down");
     }
 })
 

@@ -13,6 +13,7 @@
     max-height: 700px;
 
     overflow: hidden;
+    background: linear-gradient(180deg, black, black, rgba(97, 18, 18, 0.3));
 }
 
 #banner-bg{
@@ -55,22 +56,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.heading-contact {
-    font-size: 3em;
-    letter-spacing: 10px;
-    padding-top: 40px;
-
-    filter: drop-shadow(10px 10px 20px rgba(255, 255, 255, 0.2));
-
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-    color: white;
 }
 
 .details{

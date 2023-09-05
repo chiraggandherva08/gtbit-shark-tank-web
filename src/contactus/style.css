@@ -1,17 +1,32 @@
 #contact-us{
     width: 100vw;
     height: 300px;
-    max-width: 800px;
-    margin: auto;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-
-    gap: 30px;
 
     background: black;
     padding: 20px 0px;
+
+    background: linear-gradient(160deg, black, black, rgba(70, 67, 63, 0.5));
+}
+
+.heading-contact {
+    font-size: 3em;
+
+    filter: drop-shadow(10px 10px 20px rgba(255, 255, 255, 0.2));
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    text-align: center;
+    padding-top: 30px;
+
+    color: white;
 }
 
 #contact-us div{
@@ -20,12 +35,14 @@
     justify-content: space-evenly;
     align-items: center;
 
-    height: 90%;
+    height: 100%;
     width: 40%;
+    max-width: 300px;
 }
 
 #contact-us img {
-    width: 300px;
+    width: 100%;
+    -webkit-user-drag: none;
 }
 
 #email-contact-us, #name-contact-us, #ph-contact-us{
@@ -64,11 +81,16 @@
 @media (max-width: 800px) {
     #contact-us{
         flex-direction: column;
-        height: 600px;
+        height: 500px;
+    }
+
+    #contact-us img{
+        height: 200px;
+        width: auto;
     }
 
     #contact-us div{
-        width: 90%;
+        width: 100%;
         height: 50%;
         margin-bottom: 40px;
     }
