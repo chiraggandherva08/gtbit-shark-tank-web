@@ -1,23 +1,24 @@
 import React from "react";
 import "./style.css";
 
-window.addEventListener("scroll", (event) => {
+window.addEventListener("scroll", () => {
     const heading = document.querySelector(".heading");
     const img = document.querySelector("#banner-bg");
 
-    const letter_scape = window.scrollY;
+    const scrolled_height = window.scrollY;
+
+    img.style.transform = `translateY(${scrolled_height * (-1)}px)`;
+    img.style.filter = `blur(${scrolled_height * 0.01}px)`;
+    img.style.opacity = `${0.4 - 0.002 * scrolled_height}`;
     
-    img.style.transform = `translateY(${letter_scape * (-2)}px)`;
-    img.style.filter = `blur(${letter_scape * 0.05}px)`;
-    img.style.opacity = `${0.6 - 0.003 * letter_scape}`;
-    
-    heading.style.letterSpacing = `${20 + letter_scape * 3}px`;
-    heading.style.opacity = `${1 - letter_scape/140}`;
+    heading.style.letterSpacing = `${20 + scrolled_height}px`;
+    heading.style.opacity = `${1 - scrolled_height/200}`;
 })
 
 const Banner = () => {
   return (
     <div id="banner">
+      <section id="home"></section>
       <img id="banner-bg" src="/assets/hero-img.jpg" alt="hero-img" />
 
       <div id="about-banner">
@@ -28,7 +29,7 @@ const Banner = () => {
 
         <div id="banner-links">
           <a href="#contact"></a>
-          <a id="contact-us-btn" href="contact-us">
+          <a id="contact-us-btn" href="#contact-us">
             Contact us
           </a>
         </div>

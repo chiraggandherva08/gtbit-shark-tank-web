@@ -13,12 +13,13 @@
     max-height: 700px;
 
     overflow: hidden;
+    background: linear-gradient(180deg, black, black, rgba(97, 18, 18, 0.3));
 }
 
 #banner-bg{
     height: 100vmax;
     z-index: inherit;
-    opacity: 0.6;
+    opacity: 0.4;
 
     -webkit-user-drag: none;
 }
@@ -41,14 +42,14 @@
     z-index: inherit;
     top: 100px;
 
-    -webkit-user-select: none;
+    user-select: none;
 }
 
 .heading {
     font-size: 5em;
     letter-spacing: 20px;
 
-    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(10px 10px 20px rgba(255, 255, 255, 0.2));
 
     overflow: hidden;
     display: flex;
@@ -66,12 +67,12 @@
     justify-content: center;
     gap: 10px;
 
-    width: 300px;
+    width: 250px;
     text-align: center;
 
     -webkit-user-drag: none;
 
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .details img{

@@ -49,6 +49,11 @@
     border-radius: 20px;
 }
 
+.white-menu{
+    background: white;
+    color: black;
+}
+
 .nav-links:hover {
     background: rgba(255, 255, 255, 0.8);
     color: rgb(26, 26, 26);
