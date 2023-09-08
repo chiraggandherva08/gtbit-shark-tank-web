@@ -64,6 +64,6 @@
 
 @media (max-width: 650px) {
     #rules-sec{
-        /* height: 700px; */
+        height: 700px;
     }
 }
