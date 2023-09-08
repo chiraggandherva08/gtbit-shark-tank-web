@@ -7,7 +7,7 @@ const toggleMenu = () => {
 }
 
 const NavBar = () => {
-    const values = ["Home", "About", "Schedule", "Tracks", "Judges", "Rules", "Contact-us"];
+    const values = ["Home", "About", "Schedule", "Judges", "Team", "Rules", "Contact-us"];
 
     const change_active = (idx) => {
         const menuItem = document.querySelectorAll(".nav-links");

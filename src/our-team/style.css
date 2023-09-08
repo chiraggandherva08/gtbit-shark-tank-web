@@ -1,0 +1,80 @@
+#team-list{
+    width: calc(100vw - 20px);
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#team-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+
+}
+
+.team-member{
+    width: 200px;
+    height: 200px;
+
+    transition-duration: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.team-member:hover{
+    scale: 105%;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+.team-member-pic{
+    width: 100%;
+    -webkit-user-select: none;
+}
+
+.team-member-name{
+    transform: translateY(50px);
+    font-size: 14px;
+    position: absolute;
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+
+    border-radius: 5px;
+    color: white;
+    user-select: none;
+}
+
+@media (max-width: 800px) {
+    .team-member{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+#judges-list{
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 50px;
+
+    margin: 50px auto;
+}
