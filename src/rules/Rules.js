@@ -1,37 +1,11 @@
 import React from "react";
 import "./style.css";
 
-window.addEventListener("scroll", () => {
-    const rulesSec = document.querySelector("#rules-sec");
-    const rulesSecPos = rulesSec.offsetTop;
-    const scrolled = window.scrollY;
-    const iheight = window.innerHeight;
-
-    const img = document.querySelector("#rules-bg");
-
-    if(rulesSecPos - window.scrollY < window.innerHeight){
-        img.style.opacity = `${0.4 - scrolled * 0.0007}`;
-        img.style.transform = `translateY(${-scrolled}px)`;
-        img.style.filter = `blur(${scrolled * 0.01}px)`;
-    }
-
-    if(rulesSecPos - window.scrollY + iheight/4 < window.innerHeight){
-        document.querySelector("#rules").classList.remove("transform-down");
-    }
-    else{
-        document.querySelector("#rules").classList.add("transform-down");
-    }
-})
-
 const Rules = () => {
 
     return (
     <div id="rules-sec">
-        <img src="/assets/rules.jpg" id="rules-bg" alt="" />
-
-        <ul id="rules" className="transform-down">
-            <br />
-            <br />
+        <ul id="rules">
             <h1>RULES:</h1>
             <li>
                 <h2>Round 1 : Pitch Desk Submission</h2>

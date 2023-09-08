@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import './style.css';
 
 const data = [
@@ -9,9 +9,10 @@ const data = [
     ["Shaksham Kharbanda", "Shaksham Kharbanda.jpeg"],
     ["Teevra Bhandari", "Teevra Bhandari.jpeg"],
     ["Riya Bhatt", "Riya Bhatt.jpeg"],
-    ["Akansha Gupta", "user.svg"],
-    ["Amaresh Muralidhar", "user.svg"],
-    ["Jagdish Pal", "user.svg"],
+    ["Grishika Chugh", "Grishika Chugh.jpeg"],
+    ["Akansha Gupta", "Akansha Gupta.jpeg"],
+    ["Jagdish Pal", "Jagdish Pal.jpeg"],
+    ["Amaresh Muralidharn", "Amaresh Muralidharn.jpeg"],
 ];
 
 const TeamMembers = ({Name, Path}) => {
