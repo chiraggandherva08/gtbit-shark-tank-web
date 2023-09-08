@@ -24,8 +24,8 @@ const Banner = () => {
       <div id="about-banner">
         
         <h1 className="heading">SHARK <br/> TANK</h1>
-        <h2 className="details"> <img src="/assets/calandar.svg" alt="calandar" /> 11:00 AM, 15 Sep 2023</h2>
-        <h2 className="details"> <img src="/assets/location.svg" alt="location" /> BVS Block Auditorium</h2>
+        <h2 className="details"> <img src="/assets/calandar.svg" alt="calandar" /> 12:00 PM to 2:30 PM, 15 Sep 2023</h2>
+        <h2 className="details"> <img src="/assets/location.svg" alt="location" /> Computer Lab, Admin Block</h2>
 
         <div id="banner-links">
           <a href="#contact"></a>
@@ -35,11 +35,11 @@ const Banner = () => {
         </div>
 
         <div id="social-media">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://instagram.com/techfest_sanchaar_official?igshid=MzRlODBiNWFlZA==" target="_blank">
             <img src="/assets/social/instagram.svg" alt="" />
           </a>
 
-          <a href="https://www.whatsapp.com/" target="_blank">
+          <a href="https://chat.whatsapp.com/JAULDWtOYOf4iS0YbNbn6O" target="_blank">
             <img src="/assets/social/whatsaap.svg" alt="" />
           </a>
         </div>
