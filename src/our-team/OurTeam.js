@@ -6,7 +6,7 @@ const data = [
     ["Chirag Gandherva", "Chirag Gandherva.jpeg"],
     ["Paras Goel", "Paras Goel.jpeg"],
     ["Rakesh Negi", "Rakesh Negi.jpeg"],
-    ["Shaksham Kharbanda", "Shaksham Kharbanda.jpeg"],
+    ["Saksham Kharbanda", "Saksham Kharbanda.jpeg"],
     ["Teevra Bhandari", "Teevra Bhandari.jpeg"],
     ["Riya Bhatt", "Riya Bhatt.jpeg"],
     ["Grishika Chugh", "Grishika Chugh.jpeg"],
