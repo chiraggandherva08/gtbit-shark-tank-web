@@ -9,9 +9,9 @@ const data = [
     ["Shaksham Kharbanda", "Shaksham Kharbanda.jpeg"],
     ["Teevra Bhandari", "Teevra Bhandari.jpeg"],
     ["Riya Bhatt", "Riya Bhatt.jpeg"],
-    ["Akansha Gupta", "Akansha Gupta.jpeg"],
-    ["Amaresh Muralidhar", "Amaresh Muralidhar.jpeg"],
-    ["Jagdish Pal", "Jagdish Pal.jpeg"],
+    ["Akansha Gupta", "user.svg"],
+    ["Amaresh Muralidhar", "user.svg"],
+    ["Jagdish Pal", "user.svg"],
 ];
 
 const TeamMembers = ({Name, Path}) => {
