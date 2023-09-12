@@ -8,12 +8,18 @@ const toggleMenu = () => {
 
 const NavBar = () => {
     const values = ["Home", "About", "Schedule", "Judges", "Team", "Rules", "Contact-us"];
-
+    
+    
     const change_active = (idx) => {
         const menuItem = document.querySelectorAll(".nav-links");
         
+        const menu = document.querySelector(".nav-list");
+        if(!(window.innerWidth >= 900)){
+            menu.classList.remove("display-menu");
+        }
+        
         for(let i = 0; i < menuItem.length; i++) {
-            if(i == idx){
+            if(i === idx){
                 menuItem[i].classList.add("white-menu");
             }
             else {

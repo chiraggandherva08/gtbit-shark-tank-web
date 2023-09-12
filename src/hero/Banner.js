@@ -28,18 +28,17 @@ const Banner = () => {
         <h2 className="details"> <img src="/assets/location.svg" alt="location" /> Computer Lab, Admin Block</h2>
 
         <div id="banner-links">
-          <a href="#contact"></a>
           <a id="contact-us-btn" href="#contact-us">
             Contact us
           </a>
         </div>
 
         <div id="social-media">
-          <a href="https://instagram.com/techfest_sanchaar_official?igshid=MzRlODBiNWFlZA==" target="_blank">
+          <a href="https://instagram.com/techfest_sanchaar_official?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">
             <img src="/assets/social/instagram.svg" alt="" />
           </a>
 
-          <a href="https://chat.whatsapp.com/JAULDWtOYOf4iS0YbNbn6O" target="_blank">
+          <a href="https://chat.whatsapp.com/JAULDWtOYOf4iS0YbNbn6O" target="_blank" rel="noreferrer">
             <img src="/assets/social/whatsaap.svg" alt="" />
           </a>
         </div>
